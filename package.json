@@ -1,0 +1,17 @@
+{
+  "name": "parsercen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "docsify serve ./docs -p 4233"
+  },
+  "keywords": [
+    "parserceb"
+  ],
+  "author": "Nikolay Gerzhan",
+  "license": "ISC"
+}
