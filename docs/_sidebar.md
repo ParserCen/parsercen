@@ -1,2 +1,1 @@
 - [Главная](README.md)
-- [Контакты](contacts.md)
