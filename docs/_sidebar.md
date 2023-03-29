@@ -1,1 +1,3 @@
 - [Главная](README.md)
+- [Соглашение](./agreement/agreement.md)
+- [Политика конфиденциальности](./private_policy/private_policy.md)

@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "docsify serve ./docs -p 4233"
+    "dev": "npm run docs",
+    "docs": "docsify serve ./docs -p 4233"
   },
   "keywords": [
     "parserceb"
