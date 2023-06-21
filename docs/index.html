@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>ПарсерЦен</title>
+  <title>ParserCen</title>
   <meta http-equiv="X-UA-Compatible"
     content="IE=edge,chrome=1" />
   <meta name="description"
@@ -12,6 +12,8 @@
     content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.5.4/themes/vue.css">
+  <link rel="icon"
+    href="https://fav.farm/📕" />
   <style>
     .app-name .app-name-link {
       font-size: 36px;
@@ -35,10 +37,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'ParserCen.ru',
+      name: 'ParserCen | Документация пользователей',
       loadSidebar: true,
       loadNavbar: true,
-      repo: ''
+      repo: 'https://github.com/ParserCen/parsercen',
+      search: {
+        depth: 6,
+        paths: 'auto',
+        placeholder: 'Поиск по основной документации',
+        noData: 'Поиск не дал результатов',
+        hideOtherSidebarContent: false,
+        namespace: 'parsercen-repo',
+      },
+      plantuml: {
+        skin: 'default',
+        serverPath: 'https://www.planttext.com/api/plantuml/png/'
+      },
     }
   </script>
   <!-- Docsify v4 -->
